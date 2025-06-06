@@ -1,0 +1,59 @@
+.card {
+  text-align: center;
+}
+
+.profileimage {
+  border: 5px solid rgb(95, 146, 241);
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.line {
+  border: 2px solid rgb(95, 146, 241);
+}
+
+.name {
+  color: rgb(95, 146, 241);
+}
+
+body {
+  margin: 0 auto;
+  padding: 30px;
+  min-height: 100vh;
+  max-width: 900px;
+  background: linear-gradient(270deg, #4ab0a8, #5e42c9);
+}
+
+.container {
+  background: linear-gradient(180deg, #ffffff, #ffffff);
+  padding: 40px;
+  max-width: 900px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.contact {
+  border-left: 4px solid rgb(69, 168, 207);
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 10px 5px 10px rgb(173, 203, 198);
+  background-color: #ebebeb;
+}
+
+.highlight {
+  background-color: rgb(227, 227, 79);
+  border-radius: 15px;
+}
+
+.pikachu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.pikachu img {
+  width: 100px; 
+  height: auto;
+}
